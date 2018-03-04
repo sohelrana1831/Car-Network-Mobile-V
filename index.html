@@ -8,6 +8,10 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     
+    
+    <!-- Owl Stylesheets -->
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    
     <!-- bxSlider CSS file -->
     <link href="assets/css/jquery.bxslider.css" rel="stylesheet" />
     
@@ -113,20 +117,277 @@
         </ul>
     </div>
     <!-- end slider top -->
+<!--    search-top-->
     
 <div class="top-search">
    <div class="search-title"><p>Search Cars</p></div>
     <form class="input-group">
-        <input class="form-control" name="search" placeholder="Search Here"  type="text">
-        <div class="input-group-btn">
+        <input class="form-control search-boader" name="search" placeholder="Search Here"  type="text">
+        <div class="input-group-btn search-button">
             <button class="btn btn-outline-success" type="submit">Search</button>
         </div>
     </form>
-</div>    
+</div> 
+  <!--  end  search-top-->
+  
+<div class="search-by">
+    <div class="container-fluid search-by-container">
+        <ul class="nav nav-tabs search-by-tabs row" id="myTab" role="tablist">
+          <li class="nav-item col-4 search-by-item">
+            <a class="nav-link active search-by-name" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">By Make</a>
+          </li>
+          <li class="nav-item  col-4 search-by-item">
+            <a class="nav-link search-by-name" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">By Price</a>
+          </li>
+          <li class="nav-item col-4 search-by-item">
+            <a class="nav-link search-by-name" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">By Type</a>
+          </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+          <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+              <div class="container-fluid">
+                  <div class="row">
+                     <div class="col-3 search-by-col">
+                          <div class="search-by-make">
+                              <img src="assets/images/icon/sr1.png" alt="">
+                              <p>Toyota</p>
+                          </div>
+                      </div>
+                      <div class="col-3 search-by-col">
+                          <div class="search-by-make">
+                              <img src="assets/images/icon/sr1.png" alt="">
+                              <p>Toyota</p>
+                          </div>
+                      </div>
+                      <div class="col-3 search-by-col">
+                          <div class="search-by-make">
+                              <img src="assets/images/icon/sr1.png" alt="">
+                              <p>Toyota</p>
+                          </div>
+                      </div>
+                      <div class="col-3 search-by-col">
+                          <div class="search-by-make">
+                              <img src="assets/images/icon/sr1.png" alt="">
+                              <p>Toyota</p>
+                          </div>
+                      </div>
+                      <div class="col-3 search-by-col">
+                          <div class="search-by-make">
+                              <img src="assets/images/icon/sr1.png" alt="">
+                              <p>Toyota</p>
+                          </div>
+                      </div>
+                      <div class="col-3 search-by-col">
+                          <div class="search-by-make">
+                              <img src="assets/images/icon/sr1.png" alt="">
+                              <p>Toyota</p>
+                          </div>
+                      </div>
+                      <div class="col-3 search-by-col">
+                          <div class="search-by-make">
+                              <img src="assets/images/icon/sr1.png" alt="">
+                              <p>Toyota</p>
+                          </div>
+                      </div>
+                      <div class="col-3 search-by-col">
+                          <div class="search-by-make">
+                              <img src="assets/images/icon/sr1.png" alt="">
+                              <p>Toyota</p>
+                          </div>
+                      </div>
+                      
+                  </div>
+              </div>
+          </div>
+          <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+              <div class="container-fluid">
+                  <ul id="search_by_price" style="display: block;">
+                    <li>
+                        <a href="#">
+                        <span>Under</span> $500</a>
+                    </li>
+                    <li>
+                        <a href="#">
+                        <span>Under</span> $1,000</a>
+                    </li>
+                    <li>
+                        <a href="#">
+                        <span>Under</span> $2,000</a>
+                    </li>
+                    <li>
+                        <a href="#">
+                        <span>Under</span> $3,000</a>
+                    </li>
+                    <li>
+                        <a href="#">
+                        <span>Under</span> $4,000</a>
+                    </li>
+                    <li>
+                        <a href="#">
+                        <span>Under</span> $5,000</a>
+                    </li>
+                    <li>
+                        <a href="#">
+                        <span>Over</span> $5,000</a>
+                    </li>
+                </ul>
+              </div>
+          </div>
+          <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+              <div class="container-fluid">
+                  <div class="row">
+                     <div class="col-6 search-by-col">
+                          <div class="search-by-make">
+                              <img src="assets/images/icon/icar1.png" alt="">
+                              <p>Convertible</p>
+                          </div>
+                      </div>
+                      <div class="col-6 search-by-col">
+                          <div class="search-by-make">
+                              <img src="assets/images/icon/icar2.png" alt="">
+                              <p>Convertible</p>
+                          </div>
+                      </div>
+                      <div class="col-6 search-by-col">
+                          <div class="search-by-make">
+                              <img src="assets/images/icon/icar3.png" alt="">
+                              <p>Convertible</p>
+                          </div>
+                      </div>
+                      <div class="col-6 search-by-col">
+                          <div class="search-by-make">
+                              <img src="assets/images/icon/icar4.png" alt="">
+                              <p>Convertible</p>
+                          </div>
+                      </div>
+                      <div class="col-6 search-by-col">
+                          <div class="search-by-make">
+                              <img src="assets/images/icon/icar5.png" alt="">
+                              <p>Convertible</p>
+                          </div>
+                      </div>
+                      <div class="col-6 search-by-col">
+                          <div class="search-by-make">
+                              <img src="assets/images/icon/icar5.png" alt="">
+                              <p>Convertible</p>
+                          </div>
+                      </div>
+                      <div class="col-6 search-by-col">
+                          <div class="search-by-make">
+                              <img src="assets/images/icon/icar2.png" alt="">
+                              <p>Convertible</p>
+                          </div>
+                      </div>
+                      <div class="col-6 search-by-col">
+                          <div class="search-by-make">
+                              <img src="assets/images/icon/icar3.png" alt="">
+                              <p>Convertible</p>
+                          </div>
+                      </div>
+                      
+                  </div>
+              </div>
+          </div>
+        </div>
+    </div>
+</div>
+<div class="clearfix"></div>
+
+<!--   Most Popular in BANGLADESH-->
+    
+    <!-- title -->
+      <div class="container-fluid">
+          <div class="row">
+            <div class="col-12 columns">
+              <p class="title"><span>Most Popular in BANGLADESH</span></p>
+            </div>
+          </div>
+      </div>
+
+
+    <!--  Demos -->
+<section id="most-popular">
+   <div class="container-fluid">
+    <div class="row most-popular-row">
+            <div class="col-12 columns">
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <h4><img src="assets/images/mostPopuler/hg1.jpg" alt=""></h4>
+                    <div class="car-detail">
+                        <p class="car-name">TOYOTA COROLLA TOYOTA </p>
+                        <p class="car-price">Price: $3,774</p>
+                        <p class="save-tk">Save: $1,774</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <h4><img src="assets/images/mostPopuler/hg1.jpg" alt=""></h4>
+                    <div class="car-detail">
+                        <p class="car-name">TOYOTA COROLLA TOYOTA </p>
+                        <p class="car-price">Price: $3,774</p>
+                        <p class="save-tk">Save: $1,774</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <h4><img src="assets/images/mostPopuler/hg1.jpg" alt=""></h4>
+                    <div class="car-detail">
+                        <p class="car-name">TOYOTA COROLLA TOYOTA </p>
+                        <p class="car-price">Price: $3,774</p>
+                        <p class="save-tk">Save: $1,774</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <h4><img src="assets/images/mostPopuler/hg1.jpg" alt=""></h4>
+                    <div class="car-detail">
+                        <p class="car-name">TOYOTA COROLLA TOYOTA </p>
+                        <p class="car-price">Price: $3,774</p>
+                        <p class="save-tk">Save: $1,774</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <h4><img src="assets/images/mostPopuler/hg1.jpg" alt=""></h4>
+                    <div class="car-detail">
+                        <p class="car-name">TOYOTA COROLLA TOYOTA </p>
+                        <p class="car-price">Price: $3,774</p>
+                        <p class="save-tk">Save: $1,774</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    
+    <script src="assets/js/owl.carousel.js"></script>
+    <script>
+            $(document).ready(function() {
+              $('.owl-carousel').owlCarousel({
+                loop: true,
+                margin: 10,
+                responsiveClass: true,
+                responsive: {
+                  0: {
+                    items: 3,
+                    nav: false
+                  },
+                  600: {
+                    items: 3,
+                    nav: false
+                  },
+                  1000: {
+                    items: 5,
+                    nav: false,
+                    loop: false,
+                    margin: 20
+                  }
+                },
+                  nav: false
+              })
+            })
+          </script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     

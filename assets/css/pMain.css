@@ -74,6 +74,8 @@
 }
 /* end second-menu*/
 
+/*search top*/
+
 .search-title {
 	background: #000;
 	color: #fff;
@@ -97,3 +99,133 @@
 	/*color: gold;*/
 	background-color: #ffc107;
 }
+
+.search-boader {
+	border: 1px solid #4093D5;
+}
+.search-button button {
+	background: #4093D5;
+	color: #fff;
+	border-radius: 0;
+	border-color: #4093D5;
+}
+.search-button button:hover {
+	color: #fff;
+	background-color: #4093D5;
+	border-color: #4093D5;
+}
+/* end search top*/
+
+/*sear by make*/
+
+.search-by-make img {
+	width: 50%;
+	height: 100%;
+}
+.search-by-container {
+    padding-right: 0px; 
+    padding-left: 0px;
+    margin-top: 10px
+
+}
+.search-by-make {
+	height: auto;
+	background: #E1E1E1;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	text-align: center;
+}
+.search-by-col {
+	padding: 5px;
+	margin: 0px;
+}
+.search-by-make p {
+	line-height: 0px;
+	margin-top: 10px;
+}
+.search-by-tabs {
+	background: #4093D5;
+    border-top: 2px solid #4093D5;
+    margin: 0;
+}
+.search-by-tabs li a {
+    color: #fff; 
+    font-family: initial;
+}
+.search-by-name {
+	border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+    padding: 10px 20px;
+}
+.search-by-item{
+    padding: 0px;
+    border-right: 1px solid #000;
+}
+#search_by_price{
+    margin: 0 auto;
+    list-style: none;
+    padding: 0;
+}
+#search_by_price li {
+	border-bottom: 1px solid #ccc;
+	padding: 5px;
+}
+
+#search_by_price li a {
+	text-decoration: none;
+	color: #000;
+	font-size: 12px;
+}
+ul#search_by_price li a::after {
+	content: "\f054";
+	font-family: FontAwesome;
+	font-size: 13px;
+	float: right;
+	margin-right: 17px;
+}
+
+
+
+
+
+
+
+
+
+
+/* end sear by make*/
+
+/*Most Popular in BANGLADESH*/
+.item h4 {
+	margin-bottom: 0;
+}
+
+.car-detail {
+	text-align: center;
+	font-size: 10px;
+    
+    font-weight: 700;
+}
+.car-detail p {
+	margin-bottom: 0;
+}
+.car-price, .save-tk {
+	font-size: 12px;
+    color: #4093D5;
+    font-weight: 700;
+}
+.title {
+	margin: 0px -11px 10px -20px;
+	padding: 5px 0 5px 10px;
+	border-bottom: 2px solid #bf0b16;
+}
+.title span {
+	border-left: 2px solid #e10e0e;
+	padding: 0 0 0 12px;
+	font-size: 12px;
+	font-family: 'Roboto', sans-serif;
+	color: #4093D5;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+/* end Most Popular in BANGLADESH*/
