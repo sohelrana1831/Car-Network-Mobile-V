@@ -516,23 +516,41 @@
                             </div>
                         </div>
                         <div class="clearfix"></div> 
-                        
-                        
-                        <div class="container">
+<!--                        socile-meadia-->
+                        <div class="container-fluid socile-meadia">
                             <hr />
-                            <div class="text-center center-block">
-                                <a href="https://www.facebook.com/bootsnipp"><i class="fa fa-facebook-square fa-3x social btn-facebook"></i></a>
-                                <a href="https://twitter.com/bootsnipp"><i class="fa fa-twitter-square fa-3x social"></i></a>
-                                <a href="https://plus.google.com/+Bootsnipp-page"><i class="fa fa-google-plus-square fa-3x social"></i></a>
-                                <a href="mailto:bootsnipp@gmail.com"><i class="fa fa-envelope-square fa-3x social"></i></a>
+                            <div class="center-block">
+                                <a href="#" class="fa fa-facebook"></a>
+                                <a href="#" class="fa fa-twitter"></a>
+                                <a href="#" class="fa fa-google"></a>
+                                <a href="#" class="fa fa-linkedin"></a>
+                                <a href="#" class="fa fa-youtube"></a>
+                                <a href="#" class="fa fa-instagram"></a>
                             </div>
                             <hr />
+                        </div>
+<!--                     end   socile-meadia-->
+                       
+                        <p class="foot2btns">
+                            <a class="home_btn" href=""><i class="fa fa-home" aria-hidden="true"></i>Home</a>
+                            <a class="mail_btn" href=""><i class="fa fa-envelope-o" aria-hidden="true"></i>E-mail us</a>
+                        </p>
+<!--                        copyright-->
+                        <div class="copyright">Car Network. All Rights Reserved.</div>
+                        <div class="design"> 
+                            <a target="_blank" href="http://webtechsoft.com/">Development by Webtechsoft</a>
+                        </div>
+<!--                        copyright-->
+                        <div class="top-page">
+                            <a href="#" class="scrollToTop"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
                         </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<!--    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>-->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="assets/js/owl.carousel.js"></script>
+   
     <script>
             $(document).ready(function() {
               $('.owl-carousel').owlCarousel({
@@ -545,6 +563,30 @@
               })
             })
           </script>
+<!--           <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>-->
+          <script>
+              $(document).ready(function(){
+	
+	//Check to see if the window is top if not then display button
+	$(window).scroll(function(){
+		if ($(this).scrollTop() > 100) {
+			$('.scrollToTop').fadeIn();
+		} else {
+			$('.scrollToTop').fadeOut();
+		}
+	});
+	
+	//Click event to scroll to top
+	$('.scrollToTop').click(function(){
+		$('html, body').animate({scrollTop : 0},800);
+		return false;
+	});
+	
+});
+          </script>
+          
+          
+          
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     
