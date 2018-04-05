@@ -1,3 +1,65 @@
+/*right-sideber*/
+
+.right-search-title {
+	background: #fff;
+	color: #333;
+	text-align: center;
+	padding: 3px 24px 12px;
+}
+.right-search-title a {
+	cursor: pointer;
+}
+
+.right-search-title p {
+	float: left;
+	font-size: 20px;
+	margin: 0px 44px 0px -13px;
+	font-family: initial;
+	border-bottom: 2px solid #4C7DA4;
+	width: 81%;
+	padding: 0px 155px 4px 0px;
+}
+.right-search-multi {
+	padding: 0px 0px 0px 0px;
+   
+}
+.right-search-multi li {
+	list-style: none;
+	padding: 12px 0px 5px 10px;
+	background: #fff;
+    color: #333;
+}
+.search-select {
+	width: 97%;
+}
+#year_f, #year_t {
+	width: 45%;
+}
+input::placeholder {
+    font-size: 14px;
+}
+.sale {
+	width: 95%;
+    background: #4093D5;
+    color: #fff;
+}
+
+._2p3a {
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 body{
 /*    background: #EDEBEB;*/
 }
@@ -391,7 +453,7 @@ ul#search_by_price li a::after {
 .socile-meadia{
     background: #444;
 }
-.fa {
+.center-block .fa {
 	padding: 12px;
 	font-size: 20px;
 	width: 47px;
@@ -401,7 +463,7 @@ ul#search_by_price li a::after {
 	border-radius: 12px;
 }
 
-.fa:hover {
+center-block .fa:hover {
     opacity: 0.7;
 }
 
@@ -493,3 +555,370 @@ p.foot2btns a {
 	font-size: 50px;
 	margin: -20px 0px 0px -7px;
 }
+
+
+
+/************************************************************
+************************* Registration Page css ******************************
+*************************************************************/
+
+
+
+.progress_step_bar.clearfix ol {
+    display: inline-block;
+    width: 100%;
+    padding: 0;
+}
+.progress_step_bar ol li.now_progress::after {
+	border-color: transparent transparent transparent #F50F0F;
+}
+
+.progress_step_bar.clearfix ol li {
+	display: inline-block;
+	float: left;
+	margin: 10px 0px;
+}
+
+.progress_step_bar ol li::after {
+	border-width: 24px 0 24px 18px;
+	border-color: transparent transparent transparent #fff;
+	top: 0;
+	right: -18px;
+}
+.progress_step_bar ol li::after, .progress_step_bar ol li::before {
+	content: "";
+	display: block;
+	width: 0;
+	height: 0;
+	border-style: solid none solid solid;
+	position: absolute;
+}
+.progress_step_bar ol li.now_progress::before {
+	border-color: transparent transparent transparent #722426;
+}
+
+.progress_step_bar ol li::before {
+	border-width: 25px 0 25px 19px;
+	border-color: transparent transparent transparent #5a5a5a;
+	top: -1px;
+	right: -19px;
+}
+.progress_step_bar ol li.now_progress {
+	color: #fff;
+	border-color: #722426;
+	background-color: #F50F0F;
+}
+
+.progress_step_bar ol li {
+	position: relative;
+	width: 25%;
+	float: left;
+	height: 50px;
+	padding-top: 12px;
+	text-align: center;
+	box-sizing: border-box;
+	background-color: #FFF;
+	border: 1px solid #5a5a5a;
+}
+.progress_step_bar ol li h2 {
+	font-size: 16px;
+	line-height: 1;
+	font-weight: 400;
+	margin-bottom: 1px;
+    margin-top: -5px;
+}
+.progress_step_bar ol li p {
+	font-size: 12px;
+	line-height: 1;
+	padding-left: 14px;
+}
+.progress_step_bar ol li:nth-last-of-type(4) {
+	z-index: 7;
+}
+.progress_step_bar ol li:nth-last-of-type(3) {
+	z-index: 5;
+}
+.progress_step_bar ol li:nth-last-of-type(2) {
+	z-index: 3;
+}
+.progress_step_bar ol li:nth-last-of-type(1)::after, .progress_step_bar ol li:nth-last-of-type(1)::before {
+	display: none;
+}
+.step-area .headLine01 {
+	margin-bottom: 12px;
+	color: #1d1d1d;
+	font-size: 18px;
+	font-weight: 400;
+	background: #fefefe;
+	background: -moz-linear-gradient(top,#fefefe 0,#fefefe 4%,#fcfcfc 5%,#f1f1f1 49%,#e1e1e1 50%,#f2f2f2 100%);
+	background: -webkit-linear-gradient(top,#fefefe 0,#fefefe 4%,#fcfcfc 5%,#f1f1f1 49%,#e1e1e1 50%,#f2f2f2 100%);
+	background: linear-gradient(to bottom,#fefefe 0,#fefefe 4%,#fcfcfc 5%,#f1f1f1 49%,#e1e1e1 50%,#f2f2f2 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', endColorstr='#f2f2f2', GradientType=0 );
+	border-left: 4px solid #626161;
+	display: block;
+}
+
+.step-area .headLine01 span {
+	border-width: 2px 1px 1px 0;
+	border-style: solid;
+	border-color: #d6d6d6 #b3b3b3 #b3b3b3 transparent;
+	padding: 5px 31px 5px 25px;
+	display: block;
+}
+
+/*form-area*/
+
+
+.form-area {
+	border: 10px solid #e6e6e6;
+	padding: 25px;
+	margin-bottom: 50px;
+}
+.step-one h3 {
+	border-bottom: 1px solid #333;
+	font-size: 20px;
+    font-weight: 700;
+}
+.login {
+	margin-bottom: 26px;
+}
+
+ul.regist_merit_list {
+	margin: 0px;
+	padding: 0px;
+}
+
+.step-one ul.regist_merit_list li, .submit li {
+	list-style: none;
+}
+
+ ul.regist_merit_list li {
+	background-image: url(../images/icon/green-check-mark1.png);
+	background-repeat: no-repeat;
+	background-position: -3px 5px;
+	padding-left: 32px;
+    padding-top: 12px;
+    color: #088FFB;
+    font-size: 14px;
+}
+.submit {
+	text-align: center;
+	margin-top: 25px;
+    padding: 0px;
+}
+.submit button {
+	min-width: 288px;
+	background-color: #006DEF;
+	font-size: 14px;
+	padding: 11px 15px;
+	line-height: 1.25;
+	color: #fff;
+	font-weight: 700;
+	border: 0 #006DEF;
+	cursor: pointer;
+	outline-color: #006DEF;
+	outline-offset: 4px;
+	text-align: center;
+	text-decoration: none;
+	margin-bottom: 20px;
+}
+
+ ul.submit .facebook_snsloginbtn a {
+	background-color: #3E5898;
+	border-color: #273860;
+	background-position: 0 0;
+}
+.submit li a {
+	-webkit-transition: opacity .2s ease-out;
+	-moz-transition: opacity .2s ease-out;
+	-o-transition: opacity .2s ease-out;
+	transition: opacity .2s ease-out;
+}
+ ul.submit .facebook_snsloginbtn a {
+	background-color: #3E5898;
+	border-color: #273860;
+	background-position: 0 0;
+}
+ ul.submit li a {
+	display: block;
+	line-height: 38px;
+	font-size: 24px;
+	text-align: left;
+	width: 173px;
+	padding-left: 64px;
+	text-shadow: 1px 1px 1px rgba(0,0,0,.75);
+	color: #fff;
+	background-image: url(../images/icon/sns_login_btns.png);
+	background-repeat: no-repeat;
+	background-size: 46px 342px;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	margin: auto;
+	text-decoration: none;
+	-moz-box-shadow: 0 0 5px #fff inset;
+	-webkit-box-shadow: 0 5px #fff inset;
+	-ms-box-shadow: 0 0 5px #fff inset;
+	-o-box-shadow: 0 0 5px #fff inset;
+	box-shadow: 0 0 5px #fff inset;
+}
+.submit {
+	text-align: center;
+}
+
+ul.submit .google_snsloginbtn a {
+	background-color: #ea4335;
+	border-color: #942a21;
+	background-position: 0 -76px;
+}
+
+ ul.submit li a {
+	display: block;
+	line-height: 38px;
+	font-size: 24px;
+	text-align: left;
+	width: 260px;
+	padding-left: 64px;
+	text-shadow: 1px 1px 1px rgba(0,0,0,.75);
+	color: #fff;
+	background-image: url(../images/icon/sns_login_btns.png);
+	background-repeat: no-repeat;
+	background-size: 46px 342px;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	margin: auto;
+	text-decoration: none;
+	-moz-box-shadow: 0 0 5px #fff inset;
+	-webkit-box-shadow: 0 5px #fff inset;
+	-ms-box-shadow: 0 0 5px #fff inset;
+	-o-box-shadow: 0 0 5px #fff inset;
+	box-shadow: 0 0 5px #fff inset;
+}
+ul.submit .microsoft_snsloginbtn a {
+	background-color: #0078d7;
+	border-color: #004c88;
+	background-position: 0 -152px;
+}
+.txtInner ul.submit li a {
+	display: block;
+	line-height: 38px;
+	font-size: 24px;
+	text-align: left;
+	width: 173px;
+	padding-left: 64px;
+	text-shadow: 1px 1px 1px rgba(0,0,0,.75);
+	color: #fff;
+	background-image: url(../images/icon/sns_login_btns.png);
+	background-repeat: no-repeat;
+	background-size: 46px 342px;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	margin: auto;
+	text-decoration: none;
+	-moz-box-shadow: 0 0 5px #fff inset;
+	-webkit-box-shadow: 0 5px #fff inset;
+	-ms-box-shadow: 0 0 5px #fff inset;
+	-o-box-shadow: 0 0 5px #fff inset;
+	box-shadow: 0 0 5px #fff inset;
+}
+.Login-With {
+	margin-bottom: 27px;
+    border-bottom: 1px solid #333;
+    font-size: 20px;
+    font-weight: 700;
+}
+.country ul {
+	float: left !important;
+	margin-top: 240px;
+	margin-left: -327px;
+	margin-right: 0;
+	padding-left: 5px;
+	width: 100%;
+}
+
+.main-registration-area th {
+    padding: 5px 15px 5px 10px;
+    text-align: left;
+    vertical-align: bottom;
+    color: #030303;
+    font-size: 12px;
+    font-weight: 400;
+    border: 1px solid #DFDFDF;
+    background-color: #FDF7CD;
+    padding-left: 19px;
+    
+}
+.main-registration-area th span {
+	display: inline-block;
+	max-width: 9px;
+	margin-left: -9px;
+	color: #ff0101;
+	vertical-align: top;
+	line-height: 1;
+}
+
+.main-registration-area td {
+	padding: 5px 15px 5px 10px;
+	text-align: left;
+	vertical-align: bottom;
+	color: #030303;
+	font-weight: 400;
+	border: 1px solid #DFDFDF;
+    vertical-align: middle;
+}
+.country ul {
+	margin-left: -147px;
+	width: 198px;
+	margin-top: 215px;
+	border-radius: 0;
+}
+.country button {
+	width: 100%;
+	border-radius: 0;
+	font-size: 12px;
+	background: #fff;
+	border: 1px solid #ccc;
+}
+#phone {
+	width: 100%;
+}
+
+.intl-tel-input.iti-container ul.country-list {
+	margin-left: 116px;
+	width: 198px;
+	margin-top: 215px;
+	border-radius: 0;
+}
+.main-registration-area th label {
+	width: 86px;
+}
+
+.main-registration-area td label {
+	display: inline-block;
+	width: 108px;
+	padding: 5px 0;
+	vertical-align: bottom;
+    font-size: 12px;
+}
+.check_term_text {
+	margin: 20px;
+}
+.flag-container ul {
+	width: 386px;
+}
+/************************************************************
+************************* End Registration Page css ******************************
+*************************************************************/
+
+/************************************************************
+************************* how to buy Page css ******************************
+*************************************************************/
+p.buy_title {
+    margin-top: 10px;
+    overflow: hidden;
+    position: absolute;
+}
+
+
+/************************************************************
+************************* End How to Buy Page css ******************************
+*************************************************************/
